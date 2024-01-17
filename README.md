@@ -16,6 +16,13 @@ Then, copy and paste this starter config in a new `.prettierrc.json` file:
 "@anthony-j-castro/prettier-config"
 ```
 
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+>
+> ```js
+> test;
+> ```
+
 ## Releasing a new version
 
 This repo uses
