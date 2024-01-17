@@ -1,6 +1,6 @@
 {
   "name": "@anthony-j-castro/prettier-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reusable Prettier config for projects by @anthony-j-castro.",
   "private": true,
   "main": ".prettierrc.json",
