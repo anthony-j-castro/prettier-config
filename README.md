@@ -17,11 +17,20 @@ Then, copy and paste this starter config in a new `.prettierrc.json` file:
 ```
 
 > [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
+> In order to override or extend the shared configuration, you must use a
+> `.prettierrc.js` instead:
 >
 > ```js
-> test;
+> import prettierConfig from "@anthony-j-castro/prettier-config";
+>
+> export default {
+>   ...prettierConfig,
+>   // Add or overwrite settings here
+> };
 > ```
+>
+> See more in the
+> [documentation](https://prettier.io/docs/en/configuration.html#sharing-configurations).
 
 ## Releasing a new version
 
