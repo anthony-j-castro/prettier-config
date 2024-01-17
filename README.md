@@ -25,7 +25,7 @@ Then, copy and paste this starter config in a new `.prettierrc.json` file:
 >
 > export default {
 >   ...prettierConfig,
->   // Add or overwrite settings here
+>   // Add or overwrite properties here
 > };
 > ```
 >
