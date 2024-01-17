@@ -18,7 +18,7 @@ Then, copy and paste this starter config in a new `.prettierrc.json` file:
 
 > [!IMPORTANT]  
 > In order to override or extend the shared configuration, you must use a
-> `.prettierrc.js` instead:
+> `.prettierrc.js` file instead:
 >
 > ```js
 > import prettierConfig from "@anthony-j-castro/prettier-config";
