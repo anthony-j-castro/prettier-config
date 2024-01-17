@@ -10,7 +10,8 @@ To install the latest version as a dependency of a project:
 npm install --save-dev "https://github.com/anthony-j-castro/prettier-config.git#semver:1.0.0"
 ```
 
-Then, copy and paste this starter config in a new `.prettierrc.json` file:
+Then, copy and paste the config name as a string in a new `.prettierrc.json`
+file:
 
 ```json
 "@anthony-j-castro/prettier-config"
