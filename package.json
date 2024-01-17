@@ -4,6 +4,10 @@
   "description": "Reusable Prettier config for projects by @anthony-j-castro.",
   "private": true,
   "main": ".prettierrc.json",
+  "scripts": {
+    "prettier": "prettier . --write",
+    "prettier:ci": "prettier . --check"
+  },
   "keywords": [
     "prettier",
     "prettierconfig"
@@ -19,6 +23,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
     "@semantic-release/npm": "11.0.2",
+    "prettier": "3.2.2",
     "semantic-release": "23.0.0"
   }
 }
