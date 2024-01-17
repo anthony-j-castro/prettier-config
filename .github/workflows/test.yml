@@ -21,4 +21,4 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Check for uncommitted Prettier changes
-        run: npm run prettier:ci
+        run: npm run prettier:ci 
