@@ -1,0 +1,17 @@
+{
+  "name": "@anthony-j-castro/prettier-config",
+  "version": "0.0.0",
+  "description": "Reusable Prettier config for projects by @anthony-j-castro.",
+  "private": true,
+  "main": ".prettierrc.json",
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
+  "author": {
+    "name": "Anthony Castro",
+    "email": "hello@anthonyjcastro.com",
+    "url": "https://www.anthonyjcastro.com/"
+  },
+  "license": "MIT"
+}
