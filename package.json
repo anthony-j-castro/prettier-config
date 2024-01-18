@@ -27,6 +27,6 @@
     "semantic-release": "23.0.0"
   },
   "peerDependencies": {
-    "prettier": "3.x"
+    "prettier": "^3.0.0"
   }
 }
