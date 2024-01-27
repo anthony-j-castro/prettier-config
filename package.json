@@ -6,7 +6,8 @@
   "main": ".prettierrc.json",
   "scripts": {
     "prettier": "prettier . --write",
-    "prettier:ci": "prettier . --check"
+    "prettier:ci": "prettier . --check",
+    "update-readme": "ts-node ./scripts/update-readme.ts"
   },
   "keywords": [
     "prettier",
@@ -23,8 +24,11 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
     "@semantic-release/npm": "11.0.2",
+    "@types/minimist": "1.2.5",
+    "minimist": "1.2.8",
     "prettier": "3.2.4",
-    "semantic-release": "23.0.0"
+    "semantic-release": "23.0.0",
+    "ts-node": "10.9.2"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
