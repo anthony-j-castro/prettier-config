@@ -22,9 +22,9 @@ file:
 > `.prettierrc.js` file instead:
 >
 > ```js
-> import prettierConfig from "@anthony-j-castro/prettier-config";
+> const prettierConfig = require("@anthony-j-castro/prettier-config");
 >
-> export default {
+> module.exports = {
 >   ...prettierConfig,
 >   // Add or overwrite properties here
 > };
