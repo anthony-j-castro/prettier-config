@@ -27,7 +27,7 @@
     "@types/minimist": "1.2.5",
     "minimist": "1.2.8",
     "prettier": "3.2.5",
-    "semantic-release": "23.0.0",
+    "semantic-release": "23.0.1",
     "ts-node": "10.9.2"
   },
   "peerDependencies": {
