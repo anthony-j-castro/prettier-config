@@ -1,12 +1,11 @@
 const config = {
   branches: ["main"],
   plugins: [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
     [
-      "@semantic-release/changelog",
+      "@semantic-release/commit-analyzer",
       {
-        changelogFile: "CHANGELOG.md",
+        preset: "conventionalcommits",
+        releaseRules: [{ release: "patch", type: "build" }],
       },
     ],
     "@semantic-release/npm",
@@ -20,20 +19,9 @@ const config = {
     [
       "@semantic-release/git",
       {
-        assets: [
-          "CHANGELOG.md",
-          "README.md",
-          "package.json",
-          "package-lock.json",
-        ],
+        assets: ["README.md", "package.json", "package-lock.json"],
         message:
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
-      },
-    ],
-    [
-      "@semantic-release/github",
-      {
-        successComment: false,
       },
     ],
   ],
