@@ -7,7 +7,7 @@ Reusable Prettier config for projects by @anthony-j-castro.
 To install the latest version as a dependency of a project:
 
 ```bash
-npm install --save-dev "https://github.com/anthony-j-castro/prettier-config.git#semver:1.0.0"
+npm install --save-dev "https://github.com/anthony-j-castro/prettier-config.git#semver:1.1.0"
 ```
 
 Then, copy and paste the config name as a string in a new `.prettierrc.json`
