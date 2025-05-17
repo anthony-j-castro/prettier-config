@@ -27,7 +27,7 @@
     "@types/minimist": "1.2.5",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "eslint": "9.27.0",
-    "eslint-plugin-jsonc": "2.20.0",
+    "eslint-plugin-jsonc": "2.20.1",
     "minimist": "1.2.8",
     "prettier": "3.5.3",
     "semantic-release": "24.2.3",
