@@ -30,7 +30,7 @@
     "eslint-plugin-jsonc": "2.20.1",
     "minimist": "1.2.8",
     "prettier": "3.5.3",
-    "semantic-release": "24.2.4",
+    "semantic-release": "24.2.5",
     "ts-node": "10.9.2"
   },
   "peerDependencies": {
