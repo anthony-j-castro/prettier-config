@@ -4,7 +4,7 @@ import minimist from "minimist";
 
 const README_PATH = path.join(__dirname, "../README.md");
 const INSTALL_SNIPPET_REGEX =
-  /(?<=npm install --save-dev "https:\/\/github.com\/anthony-j-castro\/prettier-config\.git#semver:)\d+\.\d+\.\d+(?=")/g;
+  /(?<=npm install --save-dev "https:\/\/github.com\/anthony-j-castro\/prettier-config\.git#v)\d+\.\d+\.\d+(?=")/g;
 
 const args = minimist(process.argv.slice(2));
 
