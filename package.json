@@ -25,7 +25,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "13.1.5",
     "@types/minimist": "1.2.5",
-    "conventional-changelog-conventionalcommits": "9.1.0",
+    "conventional-changelog-conventionalcommits": "9.3.1",
     "eslint": "9.39.4",
     "eslint-plugin-jsonc": "3.1.2",
     "minimist": "1.2.8",
