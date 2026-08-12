@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/exec": "7.1.0",
-    "@semantic-release/git": "10.0.1",
+    "@semantic-release/git": "11.0.1",
     "@semantic-release/npm": "13.1.5",
     "@types/minimist": "1.2.5",
     "conventional-changelog-conventionalcommits": "9.3.1",
