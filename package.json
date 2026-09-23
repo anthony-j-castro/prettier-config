@@ -29,11 +29,11 @@
     "eslint": "9.39.5",
     "eslint-plugin-jsonc": "3.1.2",
     "minimist": "1.2.8",
-    "prettier": "3.9.6",
+    "prettier": "3.9.9",
     "semantic-release": "25.0.9",
     "ts-node": "10.9.2"
   },
   "peerDependencies": {
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.9"
   }
 }
